@@ -1,4 +1,65 @@
 body {
     color:aqua;
+    background-color: grey;
+    font-family: "Open Sans", sans-serif;
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.hero {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+}
+.hero-pre-title {
+}
+.hero-title {
+}
+.hero-after-title {
+}
