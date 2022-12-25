@@ -8,11 +8,18 @@
     --accent-color: #ff6c00;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
     margin: 0;
     padding-left: 0;
 }
