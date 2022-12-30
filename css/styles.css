@@ -158,10 +158,19 @@ body {
 
 .hero-wrap {
     background-color: #504d4d;
+    background-image: linear-gradient(
+        rgba(25, 28, 38, 0.2),
+        rgba(25, 28, 38, 0.2)), 
+        
+        url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     flex-grow: 1;
     padding-top: 272px;
     padding-bottom: 208px;
     padding-left: 100px;
+    padding-right: 100px;
 }
 
 .hero-list {
