@@ -1,0 +1,32 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+    
+    .barbers>.container {
+            width: 1200px;
+}
+
+    .barbers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+}
+
+.barbers-item {
+    width: calc((100% - 60px) / 3);
+}
+
+    .gallery {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    .gallery-pre-title {
+        margin-bottom: 44px;
+    }
+
+    .gallery-item {
+        width: calc((100% - 90px) / 4);
+    }
+}

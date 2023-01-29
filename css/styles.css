@@ -29,6 +29,9 @@ ol {
 
 img {
     display: block;
+    min-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 body {
@@ -59,10 +62,11 @@ body {
     border: 1px solid #FF6C00;
     border-radius: 25px;
     transition: background-color 300ms linear 0ms,
-                color 300ms linear 0ms;
+        color 300ms linear 0ms;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: var(--accent-color);
     color: var(--first-btn-color)
 }
@@ -105,7 +109,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    /* width: 1200px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -370,7 +374,7 @@ body {
     justify-content: space-between;
     align-items: baseline;
     gap: 12px;
-    
+
 }
 
 .prices-item::before {
@@ -409,7 +413,7 @@ body {
     padding-bottom: 120px;
 }
 
-.benefits > .container {
+.benefits>.container {
     display: flex;
     gap: 130px;
     padding-left: 85px;
@@ -493,8 +497,8 @@ body {
 /* ----BARBERS---- */
 
 .barbers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 84px;
+    padding-bottom: 84px;
     background-color: var(--additional-bg-color);
 }
 
@@ -510,11 +514,12 @@ body {
 
 .barbers-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .barbers-item {
-    width: calc((100% - 60px) / 3);
+    width: 100%;
 }
 
 .barbers-item-title {
@@ -524,6 +529,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--main-text-color);
+    margin-top: 30px;
 }
 
 .barbers-item-text {
@@ -572,22 +578,23 @@ body {
 
 .gallery {
     background-color: var(--first-bg-color);
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 84px;
+    padding-top: 84px;
 }
-
-
-    
-
 
 .gallery-pre-title {
     color: var(--second-title-color);
-    margin-bottom: 44px;
+    margin-bottom: 71px;
 }
 
 .gallery-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+}
+
+.gallery-item {
+    width: 100%;
 }
 /* ONLINE AND CONTACTS CONTAINER*/
 
@@ -601,7 +608,7 @@ body {
     background-size: calc(50% - 15px) 100%;
 }
 
-.contacts-wrap >.container {
+.contacts-wrap>.container {
     display: flex;
 }
 
@@ -638,9 +645,7 @@ body {
     margin-bottom: 70px;
 }
 
-.contacts-list {
-
-}
+.contacts-list {}
 
 
 .contacts-item:not(last-child) {
@@ -661,7 +666,7 @@ body {
 .contacts-subtitle {
     font-weight: 600;
     font-size: 11px;
-    line-height: 1.36;  
+    line-height: 1.36;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -681,7 +686,7 @@ body {
     padding-bottom: 56px;
 }
 
-.footer > .container {
+.footer>.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -706,7 +711,6 @@ body {
     width: 60px;
     height: 1px;
     background-color: currentColor
-
 }
 
 .footer-item {}
@@ -718,3 +722,50 @@ body {
     letter-spacing: 0.2em;
     color: #303030;
 }
+
+
+/* ---------MEDIA---------- */
+
+/* @media screen and (min-width: 480px) {
+    .container {
+        width: 448px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .gallery {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+        
+    .gallery-pre-title {
+        margin-bottom: 44px;
+    }
+    
+    .gallery-item {
+            width: calc((100% - 30px) / 2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+    .gallery {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    .gallery-pre-title {
+        margin-bottom: 44px;
+    }
+
+    .gallery-item {
+        width: calc((100% - 90px) / 4);
+    }
+} */

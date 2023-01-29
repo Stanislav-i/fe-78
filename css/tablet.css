@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .barbers {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .barbers > .container {
+        width: 480px;
+    }
+
+    .gallery {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .gallery-pre-title {
+        margin-bottom: 44px;
+    }
+
+    .gallery-item {
+        width: calc((100% - 30px) / 2);
+    }
+}
