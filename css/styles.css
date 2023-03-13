@@ -624,6 +624,14 @@ body {
     color: var(--first-title-color);
 }
 
+.online-input-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
 /* --- CONTACTS ---*/
 
 .contacts {
